@@ -1,0 +1,445 @@
+/* NERILOU DELA CRUZ */
+
+/* Global */
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.css";
+
+@font-face {
+  font-family: 'Lato-Black';
+  src: url(/assets/fonts/Lato-Black.ttf);
+}
+
+@font-face {
+  font-family: 'Lato-BlackItalic';
+  src: url(/assets/fonts/Lato-BlackItalic.ttf);
+}
+
+@font-face {
+  font-family: 'Lato-Bold';
+  src: url(/assets/fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Lato-BoldItalic';
+  src: url(/assets/fonts/Lato-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: 'Lato-Hairline';
+  src: url(/assets/fonts/Lato-Hairline.ttf);
+}
+
+@font-face {
+  font-family: 'Lato-HairlineItalic';
+  src: url(/assets/fonts/Lato-HairlineItalic.ttf);
+}
+
+@font-face {
+  font-family: 'Lato-Italic';
+  src: url(/assets/fonts/Lato-Italic.ttf);
+}
+
+@font-face {
+  font-family: 'Lato-Light';
+  src: url(/assets/fonts/Lato-Light.ttf);
+}
+
+@font-face {
+  font-family: 'Lato-LightItalic';
+  src: url(/assets/fonts/Lato-LightItalic.ttf);
+}
+
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url(/assets/fonts/Lato-Regular.ttf);
+}
+
+html, body { 
+	padding: 0;
+	margin: 0;
+	overflow: none;
+}
+
+#backToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-image: url('/images/btn-bg.png');
+  background-color: transparent;
+  cursor: pointer;
+  height: 100px;
+  width: 100px;
+  font-family: 'Lato';
+  font-size: 1.5em;
+  transition: 5s ease; 
+}
+
+/* TODO: Center all divisions; */
+.centralized {
+
+	width: 85%;
+	height: auto;
+	position: relative;
+}
+/* Header */
+header {
+
+	width: 100%;
+	height: 695px;
+	background-image: url('/images/bg.png');
+	background-repeat: no-repeat;
+	background-size: 100%, 690px;
+	margin: 0;
+	padding: 0
+}
+
+/* Navigation */
+.navigation-menu { 
+	height: 80px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	float: right;
+	list-style: none; 
+}
+
+.navigation-menu ul li { 
+	float: right; 
+	margin-right: 30px; 
+	line-height: 60px;
+	 display: flex;
+  	flex-direction: column;
+}
+
+.navigation-menu ul li a { 
+	text-decoration: none; 
+}
+
+.menu-item {
+
+	color: #ccc;
+	font-family: 'Lato';
+	font-size: 15px;
+}
+
+/* Logo */
+.logo { 
+	width: 100%;
+	height: 300px;
+	clear: right;
+}
+
+/* Intro msg */
+.intro-msg {
+	width: 100%;
+	height: 80px;
+	margin-top: 40px;
+	clear: both;
+}
+
+div.intro-msg p { 
+
+	font-family: 'Lato'; 
+	font-weight: lighter;
+	line-height: 30px; 
+	padding: 0; 
+	margin: 0;
+	font-size: 20px; 
+	color: #ccc;
+}
+/* View my profile button */
+.view-myprofile {
+	width: 100%;
+	height: 50px;
+	margin-top: 50px;
+	clear: both;
+}
+
+div.view-myprofile button{ 
+
+	width: 200px;
+	height: 95%;
+	border: 3;
+	border-radius: 5px;
+	background-color: transparent;
+	border-color: #FFF;
+	font-family: 'Lato';
+	color: #FFF;
+	cursor: pointer;
+}
+
+section {
+	transition: all 0.5s ease; 
+}
+
+/* >>>>>ABOUT CONTENT<<<<< */
+
+div.about-content {
+
+	width: 100%;
+	height: 690px;
+	background-image: url('/images/about_bg.png');
+	background-repeat: no-repeat;
+	background-size: 100%, 690px;
+	margin: 0;
+	padding: 0
+}
+
+div.col-logo {
+	width: 100%;
+	height: 80px;
+}
+
+div.col-logo .hyperlink-logo {
+
+	width: 78px;
+	height: 80px;
+	background-image: url('/images/logo.png');
+	background-size: 78px 80px;
+	float: left;
+	cursor: pointer;	
+}
+
+div.col-profile {
+	width: 100%;
+	height: 250px;
+	clear: both;
+}
+
+div.col-profile img {
+	
+	width: 250px;
+	height: 250px;
+}
+
+div.col-aboutme-msg {
+	width: 100%;
+	height: 250px;
+	clear: right;
+	margin-top: 30px;	
+}
+
+div.col-aboutme-heading {
+
+	width: 60%;
+	height: 70px;
+}
+
+div.col-aboutme-heading h1 {
+
+	font-family: 'Lato'; 
+	font-weight: lighter;
+	line-height: 70px;
+	color: #FFF;
+}
+
+div.col-aboutme-content {
+
+	background-color: #666;
+	width: 60%;
+	height: 180px;
+	opacity: 0.7;
+	border-radius: 3px;
+}
+
+div.col-aboutme-content p {
+
+	font-family: 'Lato'; 
+	font-size: 14px;
+	line-height: 28px;
+	float: left;
+	color: #FFF;
+}
+
+div.skills-content {
+
+	width: 100%;
+	height: 690px;
+	background-color: #000;
+	margin: 0;
+	padding: 0
+}
+
+div.col-skill {
+	width: 80%;
+	height: auto;
+	top: 15px;
+}
+
+div.col-skill-seperator {
+	
+	width: 80%;
+	height: 100px;
+	padding-top: 10px;
+}
+
+div.col-skill-frame-img {
+	width: 6em;
+	height: 6em;
+	float: left;			
+}
+
+div.col-skill-frame-img img {
+	width: 100px;
+	height: 100px;
+}
+
+div.col-progress-bar {
+	background-color: #d7d7d7;
+	width: 80%;
+	height: 30px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 40px;
+}
+
+#progressBar-html5 {
+  width: 5px;
+  height: 30px;
+  background-color: #7f8c8d;
+  float: left;
+}
+
+#progressBar-css {
+  width: 5px;
+  height: 30px;
+  background-color: #7f8c8d;
+  float: left;
+}
+
+#progressBar-js {
+  width: 5px;
+  height: 30px;
+  background-color: #7f8c8d;
+  float: left;
+}
+
+#progressBar-php {
+  width: 5px;
+  height: 30px;
+  background-color: #7f8c8d;
+  float: left;
+}
+
+#progressBar-java {
+  width: 5px;
+  height: 30px;
+  background-color: #7f8c8d;
+  float: left;
+}
+
+div.contact-content {
+
+	width: 100%;
+	height: 690px;
+	background-color: #000;
+	margin: 0;
+	padding: 0
+}
+
+div.contact-wrapper {
+	width: 80%;
+	height: auto;
+
+}
+
+div.contact-contents {
+	width: 39%;
+	height: auto;
+	float: left;
+}
+div.contact-title{
+	width: 39%;
+}
+
+div.social-contacts {
+	width: 59%;
+	height: auto;
+	float: right;
+}
+
+div.contact-form-group { 
+	border: none;
+}
+
+h3 {
+	font-family: 'Lato';
+	font-size: 50px;
+	color: #fff;
+}
+
+#email {
+	width: 350px;
+	height: 30px;
+	float: left;
+	clear: right;
+	margin-top: 15px;
+}
+
+#msg {
+	width: 350px;
+	height: 200px;
+	float: left;
+	margin-top: 15px;
+}
+
+.btn-submit {
+	margin-top: 15px;
+	width: 355px;
+	height: 40px;
+	float: left;
+}
+
+.my-social-link { 
+	width: 100px;
+	height: 100px;
+	float: left;
+	clear: right;
+	margin-left: 27px;
+	margin-top: 80px;
+}
+
+.my-social-link img{
+	width: 100px;
+	height: 100px;
+}
+
+.footer-content{
+	background-color: #7f8c8d;
+	width: 100%;
+	height: 100px;
+	margin: 0;
+	padding: 0	
+}
+
+.footer-nav {
+	width: 60%;
+	height: 50px;
+	padding-bottom: 40px;
+	float: right;
+}
+
+.copy-right {
+	width: 39%;
+	padding-bottom: 40px;
+	height: 50px;
+	float: left;
+	line-height: 60px;
+}
+
+.copy-right-text {
+	font-family: 'Lato';
+	color: #ccc;
+	font-size: 15px;
+}
+.content {
+	width: 80%;
+	height: auto;
+	background-color: #7f8c8d;
+}
+
