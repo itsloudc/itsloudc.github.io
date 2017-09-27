@@ -64,7 +64,7 @@ html, body {
 #backToTopBtn {
   display: none;
   position: fixed;
-  bottom: 20px;
+  bottom: 0px;
   right: 30px;
   z-index: 99;
   border: none;
@@ -337,7 +337,7 @@ div.contact-content {
 
 	width: 100%;
 	height: 690px;
-	background-color: #fff;
+	background-color: #6C7A89;
 	margin: 0;
 	padding: 0
 }
