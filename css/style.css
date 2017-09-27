@@ -199,7 +199,7 @@ div.col-logo .hyperlink-logo {
 
 	width: 78px;
 	height: 80px;
-	background-image: url('/images/logo.png');
+	background-image: url('/images/hyperlink-logo.png');
 	background-size: 78px 80px;
 	float: left;
 	cursor: pointer;	
@@ -337,7 +337,7 @@ div.contact-content {
 
 	width: 100%;
 	height: 690px;
-	background-color: #000;
+	background-color: #fff;
 	margin: 0;
 	padding: 0
 }
@@ -374,8 +374,8 @@ h3 {
 
 
 .my-social-link { 
-	width: 100px;
-	height: 100px;
+    width: 67px;
+    height: 67px;
 	float: left;
 	clear: right;
 	margin-left: 70px;
@@ -383,8 +383,8 @@ h3 {
 }
 
 .my-social-link img{
-	width: 100px;
-	height: 100px;
+    width: 64px;
+    height: 64px;
 }
 
 .footer-content{
