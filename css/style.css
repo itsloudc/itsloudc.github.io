@@ -70,10 +70,11 @@ html, body {
   border: none;
   outline: none;
   background-image: url('/images/btn-bg.png');
+  background-repeat: no-repeat;
   background-color: transparent;
   cursor: pointer;
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   font-family: 'Lato';
   font-size: 1.5em;
   transition: 5s ease; 
@@ -160,17 +161,25 @@ div.intro-msg p {
 	clear: both;
 }
 
-div.view-myprofile button{ 
+div.view-myprofile .myprofile{ 
 
 	width: 200px;
 	height: 95%;
-	border: 3;
+	border: 3px solid;
 	border-radius: 5px;
 	background-color: transparent;
 	border-color: #FFF;
 	font-family: 'Lato';
 	color: #FFF;
 	cursor: pointer;
+}
+
+div.myprofile a {
+
+	text-decoration: none;
+	line-height: 45px;
+	color: #fff;
+
 }
 
 section {
