@@ -45,7 +45,7 @@
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="active" href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="#" onclick="about()">About</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -61,14 +61,12 @@
 
   </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
-    <div class="container d-flex flex-column align-items-center" data-aos="zoom-in" data-aos-delay="100">
-      <h1>/</h1>
-      <h2>/</h2>
-      <a href="about.html" class="btn-about">About Me</a>
-    </div>
-  </section><!-- End Hero -->
+  <main id="main">
+
+
+
+  </main><!-- End #main -->
+
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
@@ -96,6 +94,8 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script src="components/nav.js"></script>
 
 </body>
 
